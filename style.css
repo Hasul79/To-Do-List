@@ -1,0 +1,114 @@
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button,
+input,
+select {
+    outline: none
+}
+
+/* Main Styles */
+.main {
+    width: 340px;
+    height: auto;
+    padding: 0 15px;
+    margin: 50px auto;
+    border: 3px solid #e66;
+    background: #eee;
+    box-shadow: 5px 5px 15px rgba(146, 131, 131, 0.424)
+}
+
+.new-task {
+    text-align: center
+}
+
+.title {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.task-name {
+    width: 90%;
+    height: 30px;
+    padding: 20px 10px;
+    margin-top: -15px;
+    border: 1px solid #666;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list-type {
+    width: 40%;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.add-btn {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    background: #e66;
+    margin: 15px 0 0 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+.tasks {
+    padding-bottom: 10px
+}
+
+.task {
+    width: 100%;
+    display: none;
+}
+
+.name-and-check {
+    width: 73%;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.name-and-check input, p {
+    display: inline-block
+}
+
+.type-of-task {
+    width: 15%;
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+}
+
+.remove {
+    width: 7%;
+    display: inline-block;
+}
+
+.remove button {
+    padding: 1px;
+    border: none;
+    margin-left: 2px;
+    background: transparent;
+    color: #e60000;
+    cursor: pointer;
+    font-size: 17px
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    font-weight: bold;
+    color: #1f1d1d;
+    text-decoration: none;
+}
